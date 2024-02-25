@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 960px;
+    height: 770px;
+    margin: 0 auto;
+    background-image: url(../img/Image20240225154923.png);
+    padding: 20px;
+    background-size: 770px;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #ecdeed;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+nav .menu li{
+    display: inline-block;
+    padding: 0 24px;
+}
+
+nav .menu a{
+    display: block;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .link label{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+nav .link #Search{
+    width: 184px;
+    height: 24px;
+}
+
+nav .link button{
+    height: 24px;
+    width: 26px;
+    border: none;
+    background-color: #1f91df;
+}
+
+
+header{
+    width: 100%;
+    height: 160px;
+}
+
+header img{
+    width: 100%;
+    height: 160px;
+}
+
+#content{
+    width: 100%;
+    height: 460px;
+}
+
+section{
+    width: 70%;
+    float: left;
+    height: 460px;
+    background-color: #b0dfe7;
+}
+
+section h1{
+    color: red;
+    text-align: center;
+    padding: 24px 0;
+}
+
+section .content{
+    width: 50%;
+    line-height: 1.5;
+    float: left;
+}
+
+section .content p{
+    padding: 0 25px 0 14px;
+    text-indent: 20px;
+}
+
+section #form{
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+}
+
+section #form label{
+    margin-left: 10px;
+}
+
+section #form #name{
+    width: 250px;
+    height: 24px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5rem;
+}
+
+section #form #Email{
+    width: 250px;
+    height: 24px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5rem;
+}
+
+section .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+section .btn button{
+    width: 80px;
+    height: 28px;
+    border: none;
+    color: black;
+    background-color: #8e9894;
+    border-radius: 20%;
+}
+
+aside{
+    width: 30%;
+    height: 460px;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 2px 50px #c8cfd0;
+    padding: 6px;
+}
+
+aside p{
+    text-shadow: 2px 2px 4px red;
+    padding: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px dotted brown;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+aside img{
+    width: 100%;
+    height: 100px;
+}
+
+aside .img{
+    width: 100%;
+    box-shadow: 0 0 6px #8e9894;
+}
+
+aside .img-1{
+    height: 150px;
+}
+
+aside .img-2{
+    height: 150px;
+}
+
+aside .img-3{
+    height: 150px;
+}
+
+footer{
+    width: 100%;
+    height: 48px;
+    background-color: #cbcc66;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
